@@ -49,6 +49,7 @@ class MonthCalendarPage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
+        // גלילה אופקית של הקפסולות ימים לחודש
         child: Column(
           children: [
             // רכיב לוח השנה עם גלילה אופקית - 15% מגובה המסך
