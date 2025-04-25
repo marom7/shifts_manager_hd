@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import '/services/shift_service.dart';
-import '/UI/shift_management_view.dart';
-import '/UI/horizontal_calendar.dart';
+import 'UI/shift_management_view.dart';
+import 'UI/horizontal_calendar.dart';
 import '/controllers/calendar_controller.dart';
 
 void main() async {
