@@ -61,7 +61,7 @@ class MonthCalendarPage extends StatelessWidget {
                     onDaySelected: controller.selectDay,
                   )),
             ),
-
+            /*
             // כותרת היום הנבחר
             Padding(
               padding: const EdgeInsets.all(16.0),
@@ -87,10 +87,10 @@ class MonthCalendarPage extends StatelessWidget {
                 );
               }),
             ),
-
+            */
             // תצוגת ניהול משמרות
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.7, // גובה מותאם לכרטיסים
+              height: MediaQuery.of(context).size.height * 0.8, // גובה מותאם לכרטיסים
               child: Obx(() {
                 final selectedDate = controller.daysInMonth[controller.selectedDayIndex.value];
                 return ShiftManagementView(
